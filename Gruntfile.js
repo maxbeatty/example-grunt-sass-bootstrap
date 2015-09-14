@@ -3,7 +3,6 @@ module.exports = function (grunt) {
     sass: {
       dev: {
         options: {
-          includePaths: ['static/sass/'],
           outputStyle: 'expanded'
         },
         files: {
